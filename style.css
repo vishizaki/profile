@@ -1,0 +1,122 @@
+body {
+  background: #E5ECF4;
+  font-family: 'Open Sans', sans-serif;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.3em;
+}
+
+h1, h2, h3 {
+  color: #4A4646;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-weight: lighter;
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+
+i {
+  color: #68B0AB;
+  text-decoration: none;
+}
+
+a {
+  color: #68B0AB;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1E8889;
+  font-weight: bold;
+
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+#profile-name {
+  color: #68B0AB;
+}
+
+#profile-picture {
+
+  width:175px;
+  height:160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: box-shadow: 2px 4px 10px 4px red;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.movie-pic {
+  width:200px;
+  height:300px;
+  margin-bottom: 5px;
+}
+
+.about {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+
+  .movie-pic {
+    width:100px;
+    height:200px;
+  }
+}
